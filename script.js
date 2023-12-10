@@ -31,7 +31,7 @@ function game() {
       }
     }
 
-    const playerSelection = prompt("Enter anything");
+    const playerSelection = prompt("Enter rock, paper or scissors");
     const computerSelection = computerPlay();
     console.log(computerSelection);
     console.log(playRound(playerSelection, computerSelection));
